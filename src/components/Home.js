@@ -11,10 +11,10 @@ function Home() {
     <div>
       <Section>
         <h1 className="text-5xl mb-3">
-          Hi! I'm <span className="text-pink">Inga</span>!
+          Molweni! I'm <span className="text-pink">Inga</span>!
         </h1>
         <h2 className='text-3xl'>
-          A Full Stack Software Engineer from South Africa
+          A Full Stack Software Engineer from South Africa 🇿🇦
           <span className="animate-blink">|</span>
         </h2>
         <LineBreak />
@@ -22,7 +22,7 @@ function Home() {
 
       <Section>
         <Text>
-          Experienced using Ruby, Ruby on Rails, Python, JavaScript, React, and more!
+          Experienced using Ruby, Ruby on Rails, Python, Java, JavaScript, React, and more!
         </Text>
         <Text>
           This website, inspired by <Link targetBlank href="https://code.visualstudio.com/">VS Code</Link>, is an interactive overview of who I am and some the things that I've built. I encourage visitors to click around and explore (the sidebar and tabs at the top are fully functioning).

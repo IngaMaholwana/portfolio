@@ -26,11 +26,11 @@ function Dashboard() {
   // Keyboard shortcut listeners
   useEffect(() => {
     const keyboardShortcuts = (e) => {
-      if (e.key === 'b' && e.metaKey) {
+      if (e.key === 'b' && e.ctrlKey) {
         window.innerWidth < 768 ? toggleDrawer() : toggleSidebar();
       }
 
-      if (e.key === 'k' && e.metaKey && e.shiftKey) {
+      if (e.key === 'k' && e.ctrlKey && e.shiftKey) {
         const jsConfetti = new JSConfetti();
         jsConfetti.addConfetti({ confettiColors: ['#8be9fd', '#50fa7b', '#ff5555', '#ff79c6', '#bd93f9', '#f1fa8c'] })
       }

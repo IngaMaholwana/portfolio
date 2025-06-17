@@ -16,7 +16,7 @@ function About() {
       <Section>
         <MarkdownHeader headingLevel="1" text="About" className="text-3xl md:text-5xl" />
         <LineBreak />
-        <Text>Hi! My name is Inga Maholwana. I am a full stack software engineer who graduated from Wethink</Text>
+        <Text>Hi! My name is Inga Maholwana. I am a full stack software engineer I graduated from Wethink</Text>
         <Text>While originally going to school for Law, I started coding as a hobby through 2019 and from that point on, I was hooked. Since then I have been learning and building every opportunity I get. For some examples of recent work, see <TabLink className="font-bold text-yellow" tab={portfolio}>Portfolio.js</TabLink>.</Text>
         <Text>For information on how to reach out, see <TabLink className="font-bold text-yellow" tab={contact}>Contact.md</TabLink>.</Text>
       </Section>
