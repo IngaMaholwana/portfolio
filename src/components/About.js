@@ -7,7 +7,7 @@ import MarkdownButton from './MarkdownButton';
 import Comment from './Comment';
 import { portfolio, contact } from '../utils/directory'
 import TabLink from './TabLink';
-import Link from './Link';
+
 import ResumePDF from '../assets/documents/Inga_Maholwana_Resume_2025.pdf';
 
 function About() {

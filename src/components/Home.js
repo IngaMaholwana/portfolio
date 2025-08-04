@@ -14,7 +14,7 @@ function Home() {
           Molweni! I'm <span className="text-pink">Inga</span>!
         </h1>
         <h2 className='text-3xl'>
-          A Full Stack Software Engineer from South Africa 🇿🇦
+          A Full Stack Software Engineer from South Africa 🇿🇦 ZA
           <span className="animate-blink">|</span>
         </h2>
         <LineBreak />
@@ -45,9 +45,15 @@ function Home() {
           <span className="ml-5">~/prior_work</span>
         </div>
         <div>
+          <TabLink tab={portfolio} className="text-link font-normal">Portfolio</TabLink>
+          <span className="ml-5">~/prior_work</span>
+        </div>
+        <div>
           <TabLink tab={contact} className="text-link font-normal">Contact</TabLink>
           <span className="ml-5">~/lets_chat</span>
         </div>
+
+        
       </Section>
     </div>
   )
