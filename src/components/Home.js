@@ -14,7 +14,7 @@ function Home() {
           Molweni! I'm <span className="text-pink">Inga</span>!
         </h1>
         <h2 className='text-3xl'>
-          A Full Stack Software Engineer from South Africa 🇿🇦 ZA
+          A Full Stack Software Engineer from South Africa 🇿🇦 
           <span className="animate-blink">|</span>
         </h2>
         <LineBreak />
